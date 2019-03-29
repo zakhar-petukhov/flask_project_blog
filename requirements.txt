@@ -3,3 +3,6 @@ Flask-SQLAlchemy==2.3.2
 mysql-connector==2.1.4
 Flask-Migrate==2.4.0
 Flask-Script==2.0.6
+WTForms==2.2.1
+Flask-Admin==1.5.3
+Flask-Security==3.0.0
