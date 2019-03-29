@@ -10,3 +10,7 @@
 .nav {
     margin-right: 10px;
 }
+
+.nav-item {
+    margin: auto;
+}
