@@ -38,7 +38,11 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <a class="nav-link" href="{{ url_for('posts.create_post') }}">New post</a>
+                <li>
+                    {% if current_user.has_role('admin') %}
+                        <a href="/admin">Admin</a>
+                    {% endif %}
+                </li>
             </ul>
 
         </div>
