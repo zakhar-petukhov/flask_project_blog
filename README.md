@@ -27,4 +27,4 @@
 
 Доступ к приложению оболочки контейнера:
 
- * `docker exec -it dockerflask_flaskapp_1 bash`
+ * `docker exec -it flask_project bash`
